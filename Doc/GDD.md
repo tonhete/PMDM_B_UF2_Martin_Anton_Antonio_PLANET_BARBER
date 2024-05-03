@@ -18,7 +18,7 @@ Versión del documento: < 0.1 >
 ## RESUMEN
 
 ### Concepto
-Un soldado atrapado en una serie de planetas hostiles debe sobrevivir a oleadas de esferas enemigas mientras busca un monolito para avanzar al siguiente planeta. Cada nuevo planeta presenta desafíos mayores con enemigos más rápidos y numerosos, en un entorno que se expande y se vuelve más peligroso.
+Un player atrapado en una serie de planetas hostiles debe sobrevivir a oleadas de esferas enemigas mientras busca un monolito para avanzar al siguiente planeta. Cada nuevo planeta presenta desafíos mayores con enemigos más rápidos y numerosos, en un entorno que se expande y se vuelve más peligroso.
 
 
 ### Puntos Clave
@@ -131,8 +131,12 @@ Escenarios: Se presentan terrenos áridos y rocosos con estructuras alienígenas
 Personajes: El 'player' luce equipado con tecnología avanzada, mientras que los enemigos, las esferas, tienen un look alienígena con texturas que brillan, mostrando una mezcla de lo orgánico y lo tecnológico.
 
 ### Assets de Arte
-
-> *Indica, en forma de lista ordenada, todas las imágenes y animaciones incluidas en el juego. Agrupa los assets por contenido relacionado. Por ejemplo, un personaje puede contener animaciones de salto, reposo, ataque, etc*
+Skybox
+player
+explosion enemigo
+explosion player
+logo dall-e
+fonts
 
 ## AUDIO
 
@@ -142,7 +146,10 @@ Personajes: El 'player' luce equipado con tecnología avanzada, mientras que los
 
 ### Assets de Audio
 
-> *Indica, en forma de lista ordenada, todos los audios incluidos en el juego. Se debe agrupar los assets en dos grupos, Música y Sonidos. En el grupo Sonidos, internamente se debe agrupar en base al contenido en el cual es usado. Por ejemplo, un personaje puede contener sonidos de salto, golpe, muerte, etc*
+explosion enemigo
+gun
+game over
+explosion player
 
 ## DETALLES TÉCNICOS
 
@@ -152,4 +159,9 @@ Personajes: El 'player' luce equipado con tecnología avanzada, mientras que los
 
 ### Herramientas de Desarrollo
 
-> *Indica todas las herramientas de desarrollo utilizadas para la creación del juego. Incluye el motor del juego y sus complementos, los programas usados en el arte y la música y cualquier otro programa usado durante su desarrollo*
+aseprite para el sprite del cursor
+Presonus studio one - musica
+unity
+gimp editar imagenes
+
+
